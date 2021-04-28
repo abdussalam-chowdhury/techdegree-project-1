@@ -63,7 +63,7 @@ header {
   padding-top: 10px;
 }
 
-/* Different background images for experience, blog and resumes pages */
+/* Different background images for experience, blog and resume pages */
 #experience_back {
  
   text-align: center;
@@ -108,7 +108,7 @@ header .profile-image:hover {
   transform: scale(1.1) rotate(35deg);
 }
 
-/*header profile-image id to change border color to white*/
+/*header profile-image id to change border color to white in resume page*/
 #profile-image{
 
   margin-top: 65px;
@@ -256,6 +256,7 @@ a.social:hover {
       margin: 0 auto;
   }
 
+  /* for resume page only */
   #flex {
 
     display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -266,6 +267,7 @@ a.social:hover {
     margin: 0 auto;
   }
 
+  /* for resume page only */
   #card {
     margin: 30px;
     max-width: 1000px;

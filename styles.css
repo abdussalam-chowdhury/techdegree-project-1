@@ -105,8 +105,27 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(35deg);
 }
+
+/*header profile-image id to change border color to white*/
+#profile-image{
+
+  margin-top: 65px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+
+}
+
+#profile-image:hover {
+
+  transform: scale(1.1) rotate(35deg);
+
+}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -127,7 +146,7 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
@@ -145,14 +164,33 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #CCF381;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #4831D4;
+}
+
+#skills {
+
+  border-radius: 6px;
+  display: inline-block;
+  text-align: left;
+  color:black;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+/*Blog page body title*/
+#blog_title{
+  
+  background-color: black;
+  color: white;
+  text-align: center;
+  
 }
 
 footer {
@@ -217,6 +255,25 @@ a.social:hover {
       justify-content: space-around;
       margin: 0 auto;
   }
+
+  #flex {
+
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex; 
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  #card {
+    margin: 30px;
+    max-width: 1000px;
+    text-align: center;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
 
   header {
     min-height: 470px;

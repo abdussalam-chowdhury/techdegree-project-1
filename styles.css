@@ -274,6 +274,7 @@ a.social:hover {
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
     transition: all .5s;
+  }
 
   header {
     min-height: 470px;

@@ -21,6 +21,11 @@ a:hover {
   color: #6633ff;
 }
 
+a:visited {
+
+  color: black;
+}
+
 /* Section Styles */
 
 .main-nav {

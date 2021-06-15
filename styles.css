@@ -64,6 +64,11 @@ header {
   padding-top: 10px;
 }
 
+#objective {
+
+  text-indent: 1em;
+}
+
 /* Different background images for experience, blog and resume pages */
 #experience_back {
  

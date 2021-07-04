@@ -7,12 +7,12 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;     /* font-family and font weight, changed values on july 4, 2021 */
   font-weight: 400;
   color: #222;
   background: #f7f5f0;
 }
-
+/* ******updated on july 7, 2021 (font-face)****** */
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -125,7 +125,7 @@ header .profile-image:hover {
   transform: scale(1.1) rotate(35deg);
 }
 
-/*header profile-image id to change border color to white in resume page*/
+/*black border for profile image of blog page*/
 #profile-image{
 
   margin-top: 65px;
@@ -262,18 +262,6 @@ a.social:hover {
   clear: both;
 }
 
-/* Styles for larger screens */
-@media screen and (min-width: 720px) {
-  
-  .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
-      max-width: 1200px;
-      -ms-flex-pack: distribute;
-      justify-content: space-around;
-      margin: 0 auto;
-  }
-
   /* for resume page only */
   #flex {
 
@@ -294,6 +282,9 @@ a.social:hover {
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
     transition: all .5s;
+  }
+  #card:hover {                         
+    border-color: black;                /*fixed hover of resume info page on july 4,2021*/
   }
 
   header {
@@ -320,5 +311,16 @@ a.social:hover {
     margin: 40px auto;
   }
 
-}
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+  
+  .flex {
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flex; 
+      max-width: 1200px;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+}                                                       /*missed curly brace fixed on july 4,2021*/
 

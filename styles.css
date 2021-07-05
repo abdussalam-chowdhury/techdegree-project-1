@@ -310,7 +310,14 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
+button {
+  padding: 6px 10px 6px 10px;
+  border: 2px solid #E95F0A;
+  border-radius: 10px;
+  background-color: firebrick;  /* button updated on july 6, 2021*/
+  color: yellow;
+  font-size: 1rem;
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
